@@ -1,0 +1,11 @@
+framework module CompleteSDK {
+  umbrella header "CompleteSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CompleteSDK.Swift {
+    header "CompleteSDK-Swift.h"
+    requires objc
+}
